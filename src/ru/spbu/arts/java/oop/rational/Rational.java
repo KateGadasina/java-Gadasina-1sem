@@ -3,8 +3,8 @@ package ru.spbu.arts.java.oop.rational;
 public class Rational {
     private int n;
     private int d;
-    static double ONE = 1;
-    static double ZERO = 0;
+    static Rational ONE = new Rational(1);
+    static Rational ZERO = new Rational(0);
 
     public Rational(int n, int d) {
         if (d == 0)
