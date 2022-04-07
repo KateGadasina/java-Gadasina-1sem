@@ -1,8 +1,10 @@
 package ru.spbu.arts.java.oop.ascigraphics;
 
+import ru.spbu.arts.java.oop.interfaces.Printable;
+
 import java.util.Arrays;
 
-public class Drawing {
+public class Drawing implements Printable {
     private int line;
     private int column;
     private char[][] dr;
