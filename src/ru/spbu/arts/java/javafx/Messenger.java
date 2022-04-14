@@ -41,6 +41,7 @@ public class Messenger extends Application {
 
         VBox.setVgrow(tA, Priority.ALWAYS);
         HBox.setHgrow(tF, Priority.ALWAYS);
+        HBox.setHgrow(v1, Priority.ALWAYS);
         VBox.setVgrow(lV, Priority.ALWAYS);
 
         tF.setPrefHeight(70);
